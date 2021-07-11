@@ -1,0 +1,151 @@
+.air-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.air-container .title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+.air-container #btn-container {
+  /* border: 1px solid rebeccapurple; */
+  width: 30%;
+  margin: 0 auto 50px auto;
+  /* display: none; */
+}
+
+#btn-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #212121;
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container input {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #212121;
+  font-size: 18px;
+}
+.search-container button {
+  width: 15%;
+  padding: 10px;
+  color: white;
+  background-color: var(--primary-color);
+  font-size: 18px;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.air-container .inner-container {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: ;
+  justify-content: space-between;
+}
+
+.aqiInfo {
+  width: 40%;
+  height: 350px;
+  background-color: #007edc;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.aqiInfo p:nth-child(1) {
+  border: 10px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.stations {
+  width: 40%;
+  height: 350px;
+  background-color: #ff4d95;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .air-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .air-container .title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .air-container .inner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .aqiInfo {
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+    flex-direction: column;
+  }
+
+  .stations {
+    width: 95%;
+    margin: 10px auto;
+    color: white;
+    flex-direction: column;
+  }
+
+  .search-container {
+    flex-direction: column;
+  }
+  .search-container input {
+    width: 95%;
+    margin: 0 auto;
+    padding: 4px;
+  }
+  .search-container button {
+    width: 95%;
+    margin: 0 auto;
+    padding: 4px;
+    margin-top: 5px;
+  }
+  .air-container #btn-container {
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    margin: 0 auto 50px auto;
+    /* display: none; */
+  }
+}

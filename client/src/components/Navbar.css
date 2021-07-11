@@ -1,0 +1,31 @@
+.navbar-container {
+  width: 80%;
+  height: 8px;
+  margin: 0 auto;
+  /* border: 1px solid orangered; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.logo {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.nav-links a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+.nav-links a:focus {
+  color: var(--primary-color);
+}
